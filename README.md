@@ -53,11 +53,11 @@ Make sure to have TailwindCSS set up in your project, as this package is designe
 
 If you have suggestions for how AOS for TailwindCSS + React could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
-For more, check out the [Contributing Guide](https://aibr.vercel.app/CONTRIBUTING.md).
+For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## 📄 License
 
-AOS for TailwindCSS + React is [MIT licensed](https://aibr.vercel.app/LICENSE).
+AOS for TailwindCSS + React is [MIT licensed](LICENSE).
 
 ## 💡 Inspired By
 
