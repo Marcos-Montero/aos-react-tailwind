@@ -1,4 +1,4 @@
-Contributing to Animate On Scroll for TailwindCSS + React 🌟
+# Contributing to Animate On Scroll for TailwindCSS + React 🌟
 
 First off, thanks for taking the time to contribute! 🎉
 
