@@ -20,14 +20,7 @@ import Aos from "aos-react-tailwind";
 
 Then, wrap any component you want to animate inside `Aos` and define the `className` prop as a function that returns the TailwindCSS classes:
 
-```javascript
-
-```
-
 ```typescript
-import Aos from 'aos-react-tailwind';
-Then, wrap any component you want to animate inside Aos and define the className prop as a function that returns the TailwindCSS classes:
-
 const DogList = ({ dogs }) => (
   <>
     <h1>Dogs</h1>
