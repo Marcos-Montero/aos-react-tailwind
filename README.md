@@ -29,7 +29,7 @@ const DogList = ({ dogs }) => (
         key={dog.id}
         className={(inView) => [
           "size-12 bg-purple-700 opacity-0 transition-opacity duration-500",
-          inView && "opacity-100"
+          inView && "opacity-1",
         ]}
       >
         <DogCard dog={dog} />

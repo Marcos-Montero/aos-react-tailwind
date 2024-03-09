@@ -1,17 +1,35 @@
 {
   "name": "aos-react-tailwind",
-  "version": "0.0.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "The easiest way to animate your Tailwind React Components on scroll. Add life to your web app with simple yet powerful animations.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcos-Montero/aos-react-tailwind.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "tailwind",
+    "tailwindcss",
+    "animation",
+    "scroll",
+    "aos",
+    "react-intersection-observer"
+  ],
   "scripts": {
     "build": "tsc"
   },
   "files": [
     "dist"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Marcos Montero",
+  "license": "MIT",
+  "homepage": "https://github.com/Marcos-Montero/aos-react-tailwind",
+  "bugs": {
+    "url": "https://github.com/Marcos-Montero/aos-react-tailwind/issues"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-intersection-observer": "^9.8.1",
