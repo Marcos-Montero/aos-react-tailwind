@@ -1,0 +1,26 @@
+{
+  "name": "aos-react-tailwind",
+  "version": "0.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-intersection-observer": "^9.8.1",
+    "tailwind-merge": "^2.2.1",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0",
+    "react-intersection-observer": "^9.8.1",
+    "tailwind-merge": "^2.2.1"
+  }
+}
