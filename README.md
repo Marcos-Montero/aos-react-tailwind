@@ -21,22 +21,16 @@ import Aos from "aos-react-tailwind";
 Then, wrap any component you want to animate inside `Aos` and define the `className` prop as a function that returns the TailwindCSS classes:
 
 ```typescript
-const DogList = ({ dogs }) => (
-  <>
-    <h1>Dogs</h1>
-    {dogs.map((dog) => (
+(...)
       <Aos
-        key={dog.id}
         className={(inView) => [
-          "size-12 bg-purple-700 opacity-0 transition-opacity duration-500",
+          "opacity-0 duration-500",
           inView && "opacity-1",
         ]}
       >
         <DogCard dog={dog} />
       </Aos>
-    ))}
-  </>
-);
+(...)
 ```
 
 ## ⚙️ Props
